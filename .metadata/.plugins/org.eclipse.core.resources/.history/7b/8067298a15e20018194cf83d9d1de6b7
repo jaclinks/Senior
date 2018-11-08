@@ -1,0 +1,43 @@
+package br.com.senior.varejo.pedidos;
+
+import com.rabbitmq.client.AMQP.Exchange.Delete;
+
+import br.com.senior.messaging.model.HandlerImpl;
+import br.com.senior.varejo.pedidos.Cliente.Id;
+import br.com.senior.varejo.pedidos.Cliente.PageRequest;
+import br.com.senior.varejo.pedidos.Cliente.PagedResults;
+
+@HandlerImpl
+public class ClienteCrudHandler implements CreateCliente,DeleteCliente,UpdateCliente,RetrieveCliente,ListCliente {
+
+    @Override
+    public PagedResults listCliente(PageRequest pageRequest) {
+        
+        return null;
+    }
+
+    @Override
+    public Cliente retrieveCliente(Id id) {
+       
+        return null;
+    }
+
+    @Override
+    public Cliente updateCliente(Cliente toUpdate) {
+        
+        return null;
+    }
+
+    @Override
+    public void deleteCliente(Id id) {
+        
+        
+    }
+
+    @Override
+    public Cliente createCliente(Cliente toCreate) {
+        
+        return null;
+    }
+
+}

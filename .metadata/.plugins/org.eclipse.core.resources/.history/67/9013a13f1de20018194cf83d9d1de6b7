@@ -1,0 +1,6 @@
+package br.com.senior.varejo.pedidos;
+
+
+public class CustomClienteCrudService extends ClienteCrudServiceImpl {
+
+}

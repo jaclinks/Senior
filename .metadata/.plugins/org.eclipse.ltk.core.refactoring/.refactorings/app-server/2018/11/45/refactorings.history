@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;entities_resources.db_sample.migration_sample.varejo.pedidos.PostgreSql&apos; to &apos;app-impl/src/main/resources&apos;&#x0D;&#x0A;- Original project: &apos;app-server&apos;&#x0D;&#x0A;- Destination element: &apos;app-impl/src/main/resources&apos;&#x0D;&#x0A;- Original element: &apos;app-server/src-gen/main/resources/entities_resources.db_sample.migration_sample.varejo.pedidos.PostgreSql&apos;" description="Copy package" destination="=app-impl/src\/main\/resources" element1="/src-gen\/main\/resources&lt;entities_resources.db_sample.migration_sample.varejo.pedidos.PostgreSql" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1541542979975" version="1.0"/>
+</session>

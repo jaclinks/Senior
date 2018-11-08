@@ -1,0 +1,18 @@
+package br.com.senior.varejo.pedidos;
+
+import org.springframework.context.annotation.Primary;
+import org.springframework.stereotype.Service;
+
+import br.com.senior.messaging.ErrorCategory;
+import br.com.senior.messaging.model.ServiceException;
+@Primary
+@Service
+public class CustomClienteCrudService extends ClienteCrudServiceImpl {
+    @Override
+    public ClienteEntity create(ClienteEntity entity) {
+            if (entity.getNome().equals("Batatinha")||(entity.getNome().equals("")) ) {
+                throw new ServiceException(ErrorCategory.BAD_REQUEST,"Nome de idiota");
+            }
+        return super.create(entity);
+    }
+}

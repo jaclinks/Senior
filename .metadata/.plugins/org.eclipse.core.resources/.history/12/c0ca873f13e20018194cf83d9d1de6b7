@@ -1,0 +1,6 @@
+package br.com.senior.varejo.pedidos;
+
+
+public interface ClienteRepository {
+
+}

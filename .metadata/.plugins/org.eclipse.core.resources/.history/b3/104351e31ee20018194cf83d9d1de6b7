@@ -1,0 +1,13 @@
+package br.com.senior.varejo.pedidos;
+
+import org.springframework.context.annotation.Primary;
+import org.springframework.stereotype.Service;
+@Primary
+@Service
+public class CustomClienteCrudService extends ClienteCrudServiceImpl {
+    @Override
+    public ClienteEntity create(ClienteEntity entity) {
+            
+        return super.create(entity);
+    }
+}

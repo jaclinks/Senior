@@ -1,0 +1,15 @@
+package br.com.senior.varejo.pedidos;
+
+import br.com.senior.messaging.model.HandlerImpl;
+
+@HandlerImpl
+public class HelloWorldHandler implements HelloWorld {
+
+    @Override
+    public HelloWorldOutput helloWorld(HelloWorldInput request) {
+           HelloWorldOutput output = new HelloWorldOutput();
+           output.helloWorldMessage = "Hello world, " + request.who;
+        return output;
+    }
+    
+}

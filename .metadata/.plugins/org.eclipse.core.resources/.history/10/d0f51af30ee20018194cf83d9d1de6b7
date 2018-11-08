@@ -1,0 +1,7 @@
+package br.com.senior.varejo.pedidos;
+
+import com.rabbitmq.client.AMQP.Exchange.Delete;
+
+public class ClienteCrudHandler implements CreateCliente,DeleteCliente,UpdateCliente,RetrieveCliente,ListCliente {
+
+}

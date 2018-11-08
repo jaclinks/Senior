@@ -1,0 +1,6 @@
+generator.app.version=0.1.0.0
+generator.java.pdl=true
+generator.java=true
+generator.java.messaging.version=3.16.0
+generator.java.serviceModel=true
+generator.java.serviceModel.version=7.19.0

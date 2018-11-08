@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="br.com.senior.varejo.pedidos.HelloWorld"/>
+<fullyQualifiedTypeName name="br.com.senior.varejo.pedidos.HelloWorldOutput"/>
+<fullyQualifiedTypeName name="br.com.senior.varejo.pedidos.HelloWorldInput"/>
+<fullyQualifiedTypeName name="br.com.senior.varejo.pedidos.CreateMergeCliente"/>
+<fullyQualifiedTypeName name="com.rabbitmq.client.AMQP.Exchange.Delete"/>
+<fullyQualifiedTypeName name="br.com.senior.varejo.pedidos.CreateCliente"/>
+<fullyQualifiedTypeName name="br.com.senior.varejo.pedidos.DeleteCliente"/>
+<fullyQualifiedTypeName name="br.com.senior.varejo.pedidos.UpdateCliente"/>
+<fullyQualifiedTypeName name="br.com.senior.varejo.pedidos.RetrieveCliente"/>
+<fullyQualifiedTypeName name="br.com.senior.varejo.pedidos.ListCliente"/>
+<fullyQualifiedTypeName name="br.com.senior.messaging.model.HandlerImpl"/>
+<fullyQualifiedTypeName name="br.com.senior.varejo.pedidos.ClienteBaseRepository"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Repository"/>
+<fullyQualifiedTypeName name="br.com.senior.varejo.pedidos.ClienteCrudServiceImpl"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.Primary"/>
+<fullyQualifiedTypeName name="br.com.senior.messaging.model.ServiceException"/>
+<fullyQualifiedTypeName name="br.com.senior.messaging.customspringdata.CustomRepositoryImpl"/>
+</qualifiedTypeNameHistroy>
